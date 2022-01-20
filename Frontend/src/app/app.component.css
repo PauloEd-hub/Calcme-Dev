@@ -1,0 +1,13 @@
+.all-form {
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.button-section {
+    border-style: solid;
+    border-color:black ;
+}
