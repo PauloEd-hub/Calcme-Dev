@@ -1,0 +1,40 @@
+<main>
+  <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+  <div>
+     <h1>Formulario</h1>
+  </div>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" name="name" [(ngModel)]="user.name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="email" [(ngModel)]="user.email">
+  </div>
+  <div class="form-group">
+    <label for="telefone">Telefone</label>
+    <input type="telefone" class="form-control" id="telefone" name="telefone" [(ngModel)]="user.telefone">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-md-12" >
+      <h1>Lista de usuarios</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th name="names" [(ngModel)]="users.names">Nome</th>
+            <th [(ngModel)]="users.email">Email</th>
+            <th [(ngModel)]="users.telefone">Telefone</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+  </div>
+</div> -->
+</main>
+
+

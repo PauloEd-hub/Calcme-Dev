@@ -11,6 +11,7 @@ import { TamplateFormComponent } from './tamplate-form/tamplate-form.component';
 import { DataFormComponent } from './data-form/data-form.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -29,8 +30,9 @@ import { FormsModule } from '@angular/forms';
     MatInputModule,
     MatButtonModule,
     NgbModule,
-    FormsModule
-    
+    FormsModule,
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
